@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+p{
+    color:#fff;
+}
+
+h2{
+    color:#fff;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #04ACEE;
+}
+
+.header-logo{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:70px;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  float: left;
+}
+
+.firstview-wrapper{
+    width:100%;
+    height:700px;
+    background-color:#04ACEE;
+}
+
+.message{
+    width:500px;
+    height:500px;
+    float:left;
+    margin-top:100px;
+}
+
+.product{
+    float:right;
+    margin-right:60px;
+    margin-top:100px;
+}
+
+.copy-h1{
+    color:#fff;
+}
+
+.copy-p{
+    color:#fff;
+}
+
+.copy{
+    margin-top:200px;
+    margin-bottom:30px;
+    margin-left:60px;
+}
+
+.cta{
+    width:400px;
+    height:300px;
+}
+
+.value-wrapper{
+    width:100%;
+    height:700px;
+    background-color:#04ACEE;
+}
+
+.value-product{
+    float:left;
+    margin-left:150px;
+    margin-top:100px;
+}
+
+.value-message{
+    width:500px;
+    height:500px;
+    float:right;
+    margin-right: 100px;
+}
+
+.value-copy-h1{
+    color:#fff;
+}
+
+.value-copy-p{
+    color:#fff;
+}
+
+.value-copy{
+    margin-top:200px;
+    margin-bottom:30px;
+    margin-right:60px;
+
+}
+
+.serviceflow-wrapper{
+    width:100%;
+    height:700px;
+    background-color:#04ACEE;
+}
+
+.serviceflow{
+    width:100%;
+    height:500px;
+    display:flex;
+    align-items: center;
+}
+
+.service{
+    flex:auto;
+    width:25%;
+    text-align: center
+}
+
+.service-p{
+    text-align: center;
+}
+
+.service-h2{
+    text-align: center;
+}
+img service-img{
+    ;
+}
+
+.function-wrapper{
+    width:100%;
+    height:700px;
+    background-color:#04ACEE;
+}
+
+.function-product{
+    float:right;
+    margin-right:100px;
+    margin-top:100px;
+}
+
+.function-message{
+    width:500px;
+    height:500px;
+    float:left;
+    margin-left: 150px;
+}
+
+.function-copy-h1{
+    color:#fff;
+}
+
+.function-copy-p{
+    color:#fff;
+}
+
+.function-copy{
+    margin-top:200px;
+    margin-bottom:30px;
+    margin-left:60px;
+
+}
+
+.cta-wrapper{
+    width:100%;
+    height:500px;
+    background-color:#04ACEE;
+    margin:0 auto;
+}
+
+.cta-box{
+    width:85%;
+    height:500px;
+    background-color: #F9EC35;
+    border-radius:20px;
+    margin:0 auto;
+}
+
+.cta-contents{
+    float:left;
+    margin-left:200px;
+}
+
+.cta-logo{
+    width:150px;
+    height:150px;
+    margin-top:100px;
+    margin-left:200px;
+}
+
+.cta-image{
+    float:right;
+    margin-right: 15px;
+}
+
+footer{
+    height:300px;
+    width:100%;
+    background-color: #04ACEE;
+}
+
+.footer-contents{
+    background-color: #04ACEE;
+    padding:50px;
+    
+}
+.links{
+    padding:50px;
+    text-align:center;
+}
+.footer-links-a{
+    color: white;
+}
+
+.share-btn{
+    border-top:3px solid #F9EC35;
+    padding:50px;
+    text-align:center;
+}
+
+.img-line{
+    width:90px;
+    height:30px;
+}
