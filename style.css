@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -17,7 +18,7 @@ h2{
 
 
 header {
-  height: 65px;
+  height: 121px;
   width: 100%;
   background-color: #04ACEE;
 }
@@ -35,24 +36,32 @@ header {
 }
 
 .firstview-wrapper{
+
     width:100%;
     height:700px;
     background-color:#04ACEE;
+    display:flex;
 }
 
 .message{
-    width:500px;
-    height:500px;
-    float:left;
-    margin-top:100px;
+    width:50%;
+    height:auto;
+    padding-top:100px;
+    flex:auto;
 }
 
 .product{
-    float:right;
-    margin-right:60px;
-    margin-top:100px;
+    flex:auto;
+    width:50%;
+    padding-right:60px;
+    padding-top:100px;
 }
 
+.product-img{
+    width: 80%;
+    height:60%
+    text-align:center;
+}
 .copy-h1{
     color:#fff;
 }
@@ -68,27 +77,38 @@ header {
 }
 
 .cta{
-    width:400px;
-    height:300px;
+    width:80%px;
+    height:auto;
+}
+
+.clear{
+    clear:both;
 }
 
 .value-wrapper{
     width:100%;
     height:700px;
     background-color:#04ACEE;
+    display:flex;
 }
 
 .value-product{
-    float:left;
-    margin-left:150px;
-    margin-top:100px;
+    width:50%;
+    flex:auto;
+    padding-left:100px;
+    padding-top:100px;
+}
+.value-product-img{
+    text-align:center;
+    width: 80%;
+    height:60%
 }
 
 .value-message{
-    width:500px;
+    width:50%;
     height:500px;
-    float:right;
-    margin-right: 100px;
+    flex:auto;
+    padding-right: 100px;
 }
 
 .value-copy-h1{
@@ -103,6 +123,8 @@ header {
     margin-top:200px;
     margin-bottom:30px;
     margin-right:60px;
+    width:100%;
+    height:auto;
 
 }
 
@@ -126,33 +148,36 @@ header {
 }
 
 .service-p{
+    flex:auto;
     text-align: center;
 }
 
 .service-h2{
     text-align: center;
 }
-img service-img{
-    ;
+.service-img{
+        width: 80%;
+        height:60%;
 }
 
 .function-wrapper{
     width:100%;
     height:700px;
     background-color:#04ACEE;
+    display:flex;
 }
 
 .function-product{
-    float:right;
-    margin-right:100px;
-    margin-top:100px;
+    flex:auto;
+    padding-right:100px;
+    padding-top:100px;
 }
 
 .function-message{
     width:500px;
     height:500px;
-    float:left;
-    margin-left: 150px;
+    flex:auto;
+    padding-left: 150px;
 }
 
 .function-copy-h1{
@@ -169,6 +194,10 @@ img service-img{
     margin-left:60px;
 
 }
+.function-product-img{
+    width: 80%;
+    height:60%;
+}
 
 .cta-wrapper{
     width:100%;
@@ -183,11 +212,12 @@ img service-img{
     background-color: #F9EC35;
     border-radius:20px;
     margin:0 auto;
+    display:flex;
 }
 
 .cta-contents{
-    float:left;
-    margin-left:200px;
+    flex:auto;
+    padding-left:200px;
 }
 
 .cta-logo{
@@ -198,8 +228,12 @@ img service-img{
 }
 
 .cta-image{
-    float:right;
-    margin-right: 15px;
+    flex:auto;
+    padding-right: 15px;
+}
+.cta-img{
+    width: 80%;
+    height:60%;
 }
 
 footer{
@@ -231,3 +265,20 @@ footer{
     width:90px;
     height:30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
