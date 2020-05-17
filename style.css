@@ -59,8 +59,8 @@ header {
 
 .product-img{
     width: 80%;
-    height:60%
-    text-align:center;
+    
+    margin:0 auto;
 }
 .copy-h1{
     color:#fff;
