@@ -1,13 +1,50 @@
 
 @media (max-width:1000px)  {
     .firstview-wrapper{
-        flex-wrap:wrap;
-           }
+        flex-wrap:wrap-reverse;
+        height:auto;
+            }
     .message{
         width:100%;
         margin:0 auto;
+        padding:0;
     }
     .product{
+        width:100%;
+        margin:0 auto;
+        padding:0;
+        text-align: center;
+    }
+    .product-img{
+        text-align: center;
+        width:70%;
+    }
+    .value-wrapper{
+        flex-wrap:wrap;
+    }
+    .value-product{
+        width:100%;
+        margin:0 auto;
+            }
+    .value-copy{
+        width:100%;
+        margin:0 auto;
+    }
+
+    .serviceflow{
+        flex-wrap: wrap;
+    }
+    .service{
+        width:50%;
+    }
+    .function-wrapper{
+        flex-wrap:wrap;
+            }
+    .function-product{
+        width:100%;
+        margin:0 auto;
+    }
+    .function-message{
         width:100%;
         margin:0 auto;
     }
